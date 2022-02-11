@@ -1,0 +1,97 @@
+
+body{
+  background-image: url("Images/bgimage.jpg");
+  margin: 0px;
+  font-family: cursive;
+}
+a:visited{
+  color: blue;
+}
+.logo{
+  border-radius: 100%;
+  width: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.title{
+    text-align: center;
+}
+.title p{
+  margin:0px 0px 20px 0px;
+  font-weight: bolder;
+  font-size: 1cm;
+  text-decoration:wavy black;
+}
+
+.maincontent{
+    padding:5px 0px 5px 0px; 
+}
+footer{
+    border-top: 1px solid black;
+    padding:7px 10px;
+    height: 30px;
+}
+footer a{
+  text-decoration: none;
+  padding:10px 5px 5px 0px;
+}
+footer a:hover{
+  text-decoration: underline solid black;
+  font-size:17px;
+}
+.header{
+  overflow:hidden;
+  background-color: rgb(202, 202, 202);
+  margin: 0px;
+}
+.header a{
+  float:left;
+  padding:10px;
+  display: block;
+  color:black;
+  text-align:center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.header a:hover{
+  background-color:rgb(230, 230, 230);
+}
+.header a.active{
+  background-color:cadetblue;
+  color:white;
+
+}
+.header input[type=text]{
+  float:right; 
+  padding:6px;
+  margin: 11px 50px;
+  width: 20%;
+  border:none;
+  font-size: 17px;
+}
+.languages a{
+  text-decoration:none;
+}
+.languages a:hover{
+  text-decoration: underline solid black;
+  font-size:18px;
+
+}
+
+.maincontent{
+  margin:10px;
+}
+
+.download a{
+  text-decoration: none;
+  padding: 6px 0px;
+}
+.download a:hover{
+  font-size: 17px;
+  text-decoration: underline;
+}
+#cp{
+    margin: 19px 30px;
+}
+
